@@ -8,7 +8,7 @@ def index():
 
 @app.route('/home')
 def home():
-  return render_template('home.html')
+  return render_template('home.html', aktiva_lapa = 'home')
 
 @app.route('/about')
 def about():
@@ -21,3 +21,4 @@ if __name__ == '__main__':
   app.run(host = '0.0.0.0', port = 5000, threaded = True, debug = True)
 
 # push github un reģistrēties heroku.com
+# ctrl + f5 reloado cache
