@@ -8,15 +8,15 @@ def index():
 
 @app.route('/home')
 def home():
-  return "<h1><a href=https://flaskintro.xxblazyxx.repl.co/about>My home</a></h1>"
+  return render_template('home.html')
 
 @app.route('/about')
 def about():
   return render_template('about.html')
 
-@app.route('/contacts')
+@app.route('/contact')
 def contacts():
-  return render_template('contact.html')
+  return render_template('contact.html', phone = 12345678)
 
 app.run(host = '0.0.0.0', port = 8020)
 
