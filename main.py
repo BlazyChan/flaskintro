@@ -18,7 +18,7 @@ def about():
 def contacts():
   return render_template('contact.html', phone = 12345678)
 if __name__ == '__main__':
-  app.run(host = '0.0.0.0', port = 5420, threaded = True, debug = True)
+  app.run(host = '0.0.0.0', port = 5000, threaded = True, debug = True)
 
 # push github un reģistrēties heroku.com
 # ctrl + f5 reloado cache
