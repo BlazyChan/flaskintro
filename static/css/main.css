@@ -1,8 +1,83 @@
 p{
-  color: green;
   font-size: 20px;
 }
 
 .active > a{
   color:red;
+}
+
+.chatbox{
+  position: absolute;
+  width: 400px;
+  height: 600px;
+  background-color: #E76C97;
+  border: 5px solid #CF6B75;
+  padding: 0;
+}
+
+.enter_text_box{
+  bottom: 0;
+  position: absolute;
+  height: auto;
+  width: 100%;
+  background-color: aqua;
+  border-top: 5px solid #CF6B75;
+}
+
+.chatbox_title{
+  text-align: center;
+  height: auto;
+  width: 100%;
+  bottom: 0;
+  position: relative;
+  background-color: bisque;
+  border-bottom: 5px solid #CF6B75;
+  padding: 0;
+  margin: 0;
+}
+
+.chat{
+  height: auto;
+  width: 100%;
+  position: relative;
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
+
+.you_text{
+  background: purple;
+  padding: 0;
+  margin: 0;
+}
+
+.them_text{
+  background: green;
+  padding: 0;
+  margin: 0;
+}
+
+.chat_image{
+  height: 50px;
+  width: 50px;
+  position: relative;
+  border: 3px solid #FA4B78;
+  padding: 0;
+  margin: 0;
+}
+
+.them_chat{
+  text-align: left;
+  left: 0;
+  color: red;
+  padding: 0;
+  margin: 0;
+}
+
+.you_chat{
+  text-align: right;
+  right: 0;
+  color: red;
+  padding: 0;
+  margin: 0;
 }

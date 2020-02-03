@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% set aktiva_lapa = 'chat' %}
+
+{% block saturs %}
+<div class="container">
+  <div class="chatbox">
+    <div class="chatbox_title">
+      <h1>Welcome MyChat</h1>
+    </div>
+    <div class="chat">
+
+      <div class="them_text">
+        <img class="chat_image them_chat" src="https://getridofthings.com/wp-content/uploads/2018/03/pets_catdandruff-900x900.jpg" alt="them-image">
+        <p>Labdien, meow!<p>
+      </div>
+      <div class="you_text">
+        <img class="chat_image you_chat" src="https://getridofthings.com/wp-content/uploads/2018/03/pets_catdandruff-900x900.jpg" alt="them-image">
+        <p>Nooo! Woof!</p>
+      </div>
+
+    </div>
+    <div class="enter_text_box">
+      <form action="">
+          Message: <input style="height: auto; width: 70%;" type="text" name="enter_message" value=""><input style="" type="submit" value="send"><br>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}
